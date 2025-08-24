@@ -10,8 +10,9 @@ Using dotnet user-jwts to simplify working with jwt tokens
 
 ### Endpoints
 >
-> This repo contains three endpoints, each secured with different role requirements. To access an endpoint, you need to generate a jwt token that includes the appropriate role.
+> The repo contains three endpoints, each secured with different role requirements. To access an endpoint, you need to generate a jwt token that includes the appropriate role.
 >
+
 >:one: **`/user`**
 >```bash
 > dotnet user-jwts create -p .\src\WebApi
