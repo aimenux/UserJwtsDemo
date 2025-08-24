@@ -1,0 +1,11 @@
+<Project>
+    <PropertyGroup>
+        <Deterministic>true</Deterministic>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <MSBuildTreatWarningsAsErrors>true</MSBuildTreatWarningsAsErrors>
+        <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+        <NoWarn>$(NoWarn);</NoWarn>
+    </PropertyGroup>
+</Project>
